@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #879EC7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #879EC7;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.EstruturaHeader {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.TextoHeader h1 {
+    background: linear-gradient(90deg, #8A5CB7, #C665C9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.FotoHeader {
+    display: flex;
+}
+
+.FotoHeader img {
+    width: 400px;
+    height: auto;
+}
+
+.Navegacao {
+    background-color: #558DF0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #8A5CB7;
+}
