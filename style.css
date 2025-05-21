@@ -21,6 +21,24 @@ h1 {
     font-size: 44px;
 }
 
+h2 {
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.TextoBranco h2 {
+    color: #558DF0;
+}
+
+.TextoBranco p {
+    margin-right: 2rem;
+}
+
+.TextoAzul p, h2 {
+    margin-left: 2rem;
+    color: #FFFFFF;
+}
+
 .EstruturaHeader {
     align-items: center;
     justify-content: center;
@@ -29,6 +47,7 @@ h1 {
 
 .TextoHeader h1 {
     background: linear-gradient(90deg, #8A5CB7, #C665C9);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -71,4 +90,25 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #8A5CB7;
+}
+
+.Introducao {
+    background-color: white;
+}
+
+.EstruturaIntro {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Foto img{
+    width: 600px;
+    height: auto;
+}
+
+.EstruturaCausa {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
