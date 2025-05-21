@@ -15,6 +15,7 @@ header {
 
 p {
     font-size: 24px;
+    margin-bottom: 0rem;
 }
 
 h1 {
@@ -26,16 +27,35 @@ h2 {
     color: #FFFFFF;
 }
 
+h3 {
+    font-size: 38px;
+    margin-bottom: 0rem;
+}
+
+.Foto img{
+    width: 600px;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
 .TextoBranco h2 {
     color: #558DF0;
+    margin-left: 4rem;
+}
+
+.TextoBranco h3 {
+    color: black;
 }
 
 .TextoBranco p {
-    margin-right: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
-.TextoAzul p, h2 {
-    margin-left: 2rem;
+.TextoAzul p, h2, h3 {
+    margin-left: 4rem;
+    margin-right: 4rem;
     color: #FFFFFF;
 }
 
@@ -92,22 +112,11 @@ nav ul li a:hover {
     color: #8A5CB7;
 }
 
-.Introducao {
+.Introducao, .Prevencao, .Solucoes {
     background-color: white;
 }
 
-.EstruturaIntro {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.Foto img{
-    width: 600px;
-    height: auto;
-}
-
-.EstruturaCausa {
+.EstruturaIntro, .EstruturaCausa, .EstruturaImp, .EstruturaPrev, .EstruturaSolu {
     justify-content: center;
     align-items: center;
     display: flex;
