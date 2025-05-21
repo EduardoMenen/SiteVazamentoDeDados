@@ -81,6 +81,12 @@ h3 {
     height: auto;
 }
 
+.TextoFooter {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .Navegacao {
     background-color: #558DF0;
     height: 80px;
@@ -120,4 +126,10 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.EstruturaFooter {
+    display: flex;
+    margin-bottom: 4rem;
+    text-align: center;
 }
