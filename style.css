@@ -133,3 +133,11 @@ nav ul li a:hover {
     margin-bottom: 4rem;
     text-align: center;
 }
+
+.Banner img{
+    width: 500px;
+    height: 800px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
